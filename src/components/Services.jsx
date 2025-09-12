@@ -9,7 +9,7 @@ export default function Services() {
   ];
 
   return (
-    <section id="services" className="relative py-20 px-6 overflow-hidden bg-white">
+    <section id="services" className="relative md:my-10 py-20 px-6 overflow-hidden bg-white">
       {/* Background big heading */}
       <h2 className="absolute inset-0 flex justify-center lg:items-start md:items-start text-[13vw] px-5 md:text-[9vw] font-bold text-black uppercase tracking-wide pointer-events-none">
         OUR SERVICES
