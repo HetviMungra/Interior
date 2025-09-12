@@ -44,7 +44,7 @@ export default function Testimonials() {
       </h2>
 
       {/* Foreground Cards */}
-      <div className="relative grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+      <div className="relative grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 max-w-7xl mx-auto">
         {reviews.map((r, i) => (
           <motion.div
             key={i}
@@ -52,7 +52,7 @@ export default function Testimonials() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: i * 0.2 }}
             viewport={{ once: true }}
-            className="bg-[#fdeee3] p-6 rounded-lg shadow-md relative my-5 lg:my-15"
+            className="bg-[#fdeee3] p-6 rounded-lg shadow-md relative mt-5 lg:my-15"
           >
               {/* Quote mark */}
             <span className="text-6xl text-[#000000] absolute top-4 left-4 ">

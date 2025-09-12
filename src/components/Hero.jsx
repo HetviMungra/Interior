@@ -9,7 +9,7 @@ export default function Hero() {
       <img
         src="/hero-sofa.jpg"
         alt="hero"
-        className="w-full h-full object-fill  rounded-b-3xl"
+        className="w-full h-full object-cover md:object-fill  rounded-b-3xl"
       />
 
       {/* Text Overlay */}

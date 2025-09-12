@@ -4,7 +4,7 @@ import { Heart } from "lucide-react";
 
 export default function ChooseUs() {
   return (
-    <section className="py-10 px-6 md:px-12 lg:px-20">
+    <section className="pb-25 px-6 md:px-12 lg:px-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         
         {/* Left Side Text */}
