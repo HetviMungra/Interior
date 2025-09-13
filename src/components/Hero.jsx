@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-[57vh] md:h-screen bg-white overflow-hidden">
+    <section className="relative w-full min-h-[55vh] md:h-screen bg-white overflow-hidden">
       
       {/* Background Image */}
       <img
@@ -13,7 +13,7 @@ export default function Hero() {
       />
 
       {/* Text Overlay */}
-      <div className="absolute inset-0 flex flex-col justify-start md:justify-center lg:justify-start lg:py-30 items-center text-center z-10 px-4 pt-12 md:pt-0">
+      <div className="absolute inset-0 flex flex-col justify-Start md:justify-center lg:justify-start lg:py-30 items-center text-center z-10 sm:py-0 px-4 pt-12 md:pt-0">
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
