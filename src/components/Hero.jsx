@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative w-full h-[45vh] md:h-screen bg-white overflow-hidden">
+    <section className="relative w-full h-[27vh] md:h-screen bg-white overflow-hidden">
       
       {/* Background Image */}
       <img
