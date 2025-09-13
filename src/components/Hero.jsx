@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative w-full h-[60vh] md:h-screen bg-white overflow-hidden">
+    <section className="relative w-full h-[45vh] md:h-screen bg-white overflow-hidden">
       
       {/* Background Image */}
       <img
         src="/hero-sofa.jpg"
         alt="hero"
-        className="w-full h-full object-cover rounded-b-3xl"
+        className="w-full md:h-full object-fit-contain  md:object-cover rounded-b-3xl"
       />
 
       {/* Text Overlay */}
@@ -35,7 +35,7 @@ export default function Hero() {
 
       {/* Bottom Right Scroll Message */}
       <div className="absolute  right-0 bottom-0 md:bottom-8 md:right-10 bg-white/90 px-6 py-2 rounded-tl-3xl rounded-br-3xl shadow-md ">
-        <p className="text-gray-700 text-xs  sm:text-sm md:text-lg font-medium">
+        <p className="text-black text-xs sm:text-sm md:text-lg font-extralight">
           Scroll To Explore
         </p>
       </div>
