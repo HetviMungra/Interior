@@ -7,9 +7,9 @@ export default function Hero() {
       
       {/* Background Image */}
       <img
-        src="/hero-sofa.jpg"
+        src="/Hero.png"
         alt="hero"
-        className="w-full md:h-full object-fit-contain  md:object-cover rounded-b-3xl"
+        className="w-full p-2 md:h-full object-fit-contain  md:object-cover rounded-3xl"
       />
 
       {/* Text Overlay */}
@@ -27,7 +27,8 @@ export default function Hero() {
           initial={{ opacity: 0, y: 60 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2 }}
-          className="text-4xl sm:text-4xl md:text-8xl lg:text-9xl font-light tracking-wide lg:tracking-widest text-[#704c2a] "
+          className="text-4xl sm:text-4xl md:text-8xl lg:text-9xl font-semiboldtracking-wide lg:tracking-widest text-[#704c2a] "
+          style={{ fontFamily: "Camiro"}}
         >
           COMFORT
         </motion.h2>

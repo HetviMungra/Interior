@@ -31,7 +31,9 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: 0.3 + index * 0.1 }}
           >
-            <a href={`#${item.toLowerCase()}`} className="hover:text-[#a97c51] transition">
+            <a href={`#${item.toLowerCase()}`} className="hover:text-[#a97c51] transition"
+            style={{ fontFamily: "Agilera"}}
+            >
               {item}
             </a>
           </motion.li>
@@ -53,19 +55,22 @@ export default function Navbar() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
+          
         >
-          <ul className="flex flex-col items-center gap-6 py-6 text-gray-700 font-medium">
+          <ul className="flex flex-col items-center gap-6 py-6 text-gray-700 font-medium"   >
             {["Home", "About", "Services", "Contacts"].map((item, index) => (
               <motion.li
                 key={item}
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3, delay: 0.2 + index * 0.1 }}
+                
               >
                 <a
                   href={`#${item.toLowerCase()}`}
                   className="hover:text-[#a97c51] transition"
                   onClick={() => setIsOpen(false)} // close menu on click
+                   style={{ fontFamily: "Agilera"}}
                 >
                   {item}
                 </a>

@@ -14,10 +14,10 @@ export default function Footer() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h3 className="text-xl lg:text-4xl mb-2 text-black py-5 text-center md:text-left">
+          <h3 className="text-xl lg:text-4xl mb-2 text-black py-5 text-center md:text-left" style={{fontFamily:"Agilera"}} >
             Quick Links
           </h3>
-          <ul className="space-y-4 lg:text-2xl text-center md:text-left font-extralight text-black">
+          <ul className="space-y-4 lg:text-2xl text-center md:text-left font-extralight text-black" style={{fontFamily:"VELISTA"}}>
             <li><a href="#" className="hover:text-[#a97c51] transition">HOME</a></li>
             <li><a href="#about" className="hover:text-[#a97c51] transition">ABOUT</a></li>
             <li><a href="#services" className="hover:text-[#a97c51] transition">SERVICES</a></li>
@@ -44,12 +44,12 @@ export default function Footer() {
           transition={{ duration: 0.6, delay: 0.3 }}
           viewport={{ once: true }}
         >
-          <h3 className="font-extralight text-xl lg:text-4xl text-black py-5">
+          <h3 className="font-extralight text-xl lg:text-4xl text-black py-5 md:text-right " style={{fontFamily:"Agilera"}}>
             Say Hello!
           </h3>
-          <p className="text-lg lg:text-2xl py-2">90863451X2</p>
-          <p className="text-lg lg:text-2xl py-2">care@aceoninterio.com</p>
-          <p className="text-lg lg:text-2xl">
+          <p className="text-lg lg:text-2xl py-2 md:text-right"   style={{fontFamily: "Poppins" }}>90863451X2</p>
+          <p className="text-lg lg:text-2xl py-2  md:text-right"   style={{fontFamily: "Poppins" }} >care@aceoninterio.com</p>
+          <p className="text-lg lg:text-2xl  md:text-right"   style={{fontFamily: "Poppins" }} >
             Vivekananda colony, Ward No. 13 <br />
             Mal bazar, West Bengal
           </p>

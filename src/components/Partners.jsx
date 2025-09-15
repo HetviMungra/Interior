@@ -22,7 +22,8 @@ export default function Partners() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-xl md:text-2xl italic font-light max-w-3xl mx-auto leading-relaxed"
+          className="text-xl md:text-2xl text-black max-w-3xl mx-auto  "
+          style={{fontFamily:"VELISTA"}}
         >
           
           "DO YOUR DUTY AND A LITTLE MORE. AND DO IT WITH 100% SINCERITY, WITHOUT EXPECTING ANYTHING IN RETURN."
@@ -32,7 +33,8 @@ export default function Partners() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
           viewport={{ once: true }}
-          className="mt-4 text-lg font-serif"
+          className="mt-4 text-lg"
+          style={{fontFamily:"Agilera"}}
         >
           GuruDev Sri Sri Ravishanker
         </motion.p>
@@ -45,7 +47,8 @@ export default function Partners() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-2xl md:text-3xl font-bold mb-6"
+          className="text-2xl md:text-3xl font-bold mb-6 tracking-wide"
+           style={{fontFamily: "Poppins" }}
         >
           OUR TRUSTED PARTNERS
         </motion.h2>

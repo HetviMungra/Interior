@@ -15,9 +15,9 @@ export default function ChooseUs() {
           viewport={{ once: true }}
           className="text-center md:text-left"
         >
-          <h2 className="text-5xl md:text-7xl lg:text-9xl font-[serif] leading-tight">
+          <h2 className="text-5xl md:text-7xl lg:text-9xl font-[serif] leading-tight"  style={{fontFamily:"VELISTA"}}>
             WHY <br /> TO <br />
-            <span className="block">CHOOSE</span>
+            <span className="block"  style={{fontFamily:"Agilera"}} >CHOOSE</span>
             US?
           </h2>
         </motion.div>
@@ -32,12 +32,13 @@ export default function ChooseUs() {
         >
           {/* Top Label */}
           <div className="absolute -top-6 md:top-0 left-1/2 md:left-0 -translate-x-1/2 md:translate-x-0 text-lg md:text-2xl bg-white px-6 md:py-3 py-1 flex items-center gap-3 text-[#a97c51] font-medium shadow ">
-            <span>Trusted Clients</span>
+            <span style={{fontFamily: "Poppins" }}>Trusted Clients</span>
             <Heart size={22} />
           </div>
 
           {/* Main Number */}
-          <h3 className="text-4xl md:text-6xl lg:text-7xl font-bold text-center mt-10">
+          <h3 className="text-4xl md:text-6xl lg:text-7xl  text-center mt-10"
+           style={{fontFamily:"Agilera"}}>
             500+
           </h3>
         </motion.div>

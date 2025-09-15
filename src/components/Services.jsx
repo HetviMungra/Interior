@@ -11,7 +11,9 @@ export default function Services() {
   return (
     <section id="services" className="relative md:my-10 py-20 px-6 overflow-hidden bg-white">
       {/* Background big heading */}
-      <h2 className="absolute inset-0 flex justify-center lg:items-start md:items-start text-[13vw] px-5 md:text-[9vw] font-bold text-black uppercase tracking-wide pointer-events-none">
+      <h2 className="absolute inset-0 flex justify-center lg:text-[11vw] lg:items-start md:items-start text-[13vw] px-5 md:text-[9vw] font-bold text-[#181818da] uppercase -tracking-tighter pointer-events-none"
+       style={{ fontFamily: "Camiro"}} 
+       >
         OUR SERVICES
       </h2>
 
@@ -24,7 +26,8 @@ export default function Services() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: i * 0.2 }}
             viewport={{ once: true }}
-            className="overflow-hidden  shadow-lg group relative"
+            className="overflow-hidden font-extralight  shadow-lg group relative"
+            style={{fontFamily: "Poppins" }}
           >
             {/* Image with hover effect */}
             <img
