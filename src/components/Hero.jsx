@@ -35,7 +35,7 @@ export default function Hero() {
       </div>
 
       {/* Bottom Right Scroll Message */}
-      <div className="absolute  right-0 bottom-0 md:bottom-8 md:right-10 bg-white/90 px-6 py-2 rounded-tl-3xl rounded-br-3xl shadow-md ">
+      <div className="absolute  right-0 bottom-0 md:bottom-8 md:right-10 bg-white/90 px-6 py-2 rounded-tl-3xl  shadow-md ">
         <p className="text-black text-xs sm:text-sm md:text-lg font-extralight">
           Scroll To Explore
         </p>

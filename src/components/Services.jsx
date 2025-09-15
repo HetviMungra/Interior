@@ -9,9 +9,9 @@ export default function Services() {
   ];
 
   return (
-    <section id="services" className="relative md:my-10 py-20 px-6 overflow-hidden bg-white">
+    <section id="services" className="relative md:my-10 py-5 px-6 overflow-hidden bg-white">
       {/* Background big heading */}
-      <h2 className="absolute inset-0 flex justify-center lg:text-[11vw] lg:items-start md:items-start text-[13vw] px-5 md:text-[9vw] font-bold text-[#181818da] uppercase -tracking-tighter pointer-events-none"
+      <h2 className="absolute inset-0 flex justify-center lg:text-[11vw] items-start lg:items-start md:items-start text-[13vw] mt-5  lg:px-10 md:text-[9vw] font-bold text-[#181818da] uppercase -tracking-tighter pointer-events-none"
        style={{ fontFamily: "Camiro"}} 
        >
         OUR SERVICES
